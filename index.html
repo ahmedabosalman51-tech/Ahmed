@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>أحمد | موقعي الشخصي</title>
+
+<style>
+
+body{
+margin:0;
+font-family:Arial;
+background:linear-gradient(135deg,#141e30,#243b55);
+color:white;
+display:flex;
+justify-content:center;
+align-items:center;
+min-height:100vh;
+}
+
+.card{
+width:90%;
+max-width:420px;
+background:rgba(255,255,255,0.08);
+padding:25px;
+border-radius:20px;
+text-align:center;
+box-shadow:0 0 25px rgba(0,0,0,0.5);
+backdrop-filter: blur(10px);
+animation: pop 1s ease;
+}
+
+@keyframes pop{
+from{transform:scale(0.7);opacity:0;}
+to{transform:scale(1);opacity:1;}
+}
+
+h1{
+font-size:38px;
+margin-bottom:10px;
+}
+
+p{
+font-size:18px;
+opacity:0.9;
+line-height:1.6;
+}
+
+.about{
+margin-top:10px;
+background:rgba(255,255,255,0.1);
+padding:12px;
+border-radius:12px;
+}
+
+a{
+display:block;
+margin:10px 0;
+padding:12px;
+border-radius:12px;
+text-decoration:none;
+color:white;
+font-size:18px;
+transition:0.3s;
+}
+
+a:hover{
+transform:scale(1.05);
+}
+
+.ig{background:#ff0066;}
+.x{background:#1DA1F2;}
+.wa{background:#25D366;}
+
+.projects{
+margin-top:15px;
+}
+
+.box{
+background:rgba(255,255,255,0.1);
+padding:10px;
+margin:10px 0;
+border-radius:12px;
+transition:0.3s;
+}
+
+.box:hover{
+transform:scale(1.05);
+background:rgba(255,255,255,0.2);
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="card">
+
+<h1>👋 أحمد</h1>
+
+<p class="about">
+أنا أحمد، أتعلم برمجة المواقع وتصميم الويب 🚀
+</p>
+
+<p>مطور مواقع مبتدئ وأطمح أصير محترف 💻</p>
+
+<div class="projects">
+
+<h2>🚀 مشاريعي</h2>
+
+<div class="box">🎮 لعبة بسيطة</div>
+<div class="box">🌐 موقع شخصي</div>
+<div class="box">💻 مواقع تجريبية</div>
+
+</div>
+
+<a class="ig" href="https://instagram.com/" target="_blank">📸 إنستغرام</a>
+<a class="x" href="https://x.com/" target="_blank">🐦 تويتر</a>
+<a class="wa" href="https://wa.me/96567670550" target="_blank">💬 واتساب</a>
+
+</div>
+
+</body>
+</html>
